@@ -1,4 +1,14 @@
+.platte{
+display: flex;
+gap: 10px;
+flex-wrap:wrap;
+}
+
 .swatch{
+padding: 30px
+flex: 1;
+min-width: 150px
+text-align: center
 width: 300px;
 height:50px;
 }
@@ -8,7 +18,7 @@ background-color:red;
 }
 
 .hex{
-background-color: #00FF00;
+background-color: #008000;
 }
 
 .rgb{
